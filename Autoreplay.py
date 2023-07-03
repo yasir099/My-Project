@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import json
 
-api_token = "1901776894:AAGa-wIXdBiqrCUDYMdh2ZhTr7W-PwVRSpk"
+api_token = ""
 base_url = "https://api.telegram.org/bot{}/getUpdates".format(api_token)
 old_mess = 1
 update_id = 1
